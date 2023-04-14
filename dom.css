@@ -1,0 +1,37 @@
+html{
+    background-color: gold;
+ }
+p{
+    
+    font-size: 25px;
+}
+
+ button {
+    border-radius: 60px;
+    font-size: 40px;
+    padding-inline: 40px;
+    padding-block: 30px;
+    font-weight: bold;
+    border-style: none;
+    background-color:black;
+    color: gold;
+    margin-inline: 10px;
+    font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+    
+    
+}
+
+button:hover {
+    background-color: white;
+    color: black;
+}
+.container {
+    display: flex;
+     flex-direction: row;
+     justify-content: center;
+     align-items: center;
+     padding-top: 300px;
+ }
+   
+
+

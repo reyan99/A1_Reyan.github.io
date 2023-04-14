@@ -1,0 +1,97 @@
+/* FONTS ------------------------------------------------- */
+
+@font-face {
+font-family: 'sheep';
+src: url('./fonts/nobile-medium-webfont.eot');
+src: url('./fonts/nobile-medium-webfont.eot') format('embedded-opentype'),
+     url('./fonts/nobile-medium-webfont.woff2') format('woff2'),
+     url('./fonts/nobile-medium-webfont.woff') format('woff'),
+     url('./fonts/nobile-medium-webfont.ttf') format('truetype');
+font-style: normal;
+font-weight: normal;
+}
+
+
+/* OVERALL ----------------------------------------------- */
+
+html {
+        margin: 0;
+        padding: 0;
+        height: 100%;
+        font-family:;
+        font-size: 18px;
+}
+
+body   {
+        background-color: white;
+        margin: 0;
+        padding: 100px; 
+        max-height: 40%;        
+        display: ;
+}
+
+*      {
+        -webkit-box-sizing: border-box;
+        -moz-box-sizing: border-box;
+        box-sizing: border-box;
+}
+
+h1 {
+    font-size: 80px; 
+    font-family: 'sheep';
+    color: dimgrey;
+    padding-left: 220px;
+}
+
+p {font-size: 20px;
+    word-spacing: normal; 
+    font-family: 'sheep'; 
+    color: dimgray;
+}
+p2 { font-size: 20px;
+    word-spacing: normal; 
+    font-family: 'sheep'; 
+    color: white;
+    
+}
+/*  ------------------------- */
+
+.highlight {
+    background-color: white;
+    width: 100%;
+}
+
+
+
+button{
+    display: block; 
+
+}
+h3 {
+    font-size: 30px;
+}
+img{
+    align-content: space-around;
+    padding-left: 300px;
+}
+
+.box {padding-left: 10px}
+
+h4{
+    padding-bottom: 5px;
+}
+h2{
+   color: white;
+}
+h5 {
+    color: black;
+    font-size: 16px;
+}
+#footer {
+  background-color: dimgray;
+  padding: 30px;
+  clear: both;
+    text-align: center;
+align-content: space-around;
+}
+
